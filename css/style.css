@@ -1,0 +1,532 @@
+/*!
+ * Template xatProject 1.0.1
+ * Designer & Programmer by Nando (10042001)
+ * Contact nando@xatproject.com
+ */
+
+@import 'bootstrap.css';
+
+@import 'bootstrap-reset.css';
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* ========== GENERAL STYLES ========== */
+
+body {
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+	color: #797979;
+	font-size: 14px;
+}
+
+.clear {
+	clear: both;
+}
+
+.row {
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	max-width: 1280px;
+	width: 100%;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.xatpro-input {
+	padding-bottom: 12px;
+}
+
+/* ========== CONTENT AREA ========== */
+
+.content {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.content , .container-fluid {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.wraper {
+	padding-top: 80px;
+	min-height: 550px;
+	padding-bottom: 70px;
+}
+.page-title {
+	padding: 24px 32px 25px;
+}
+.page-title h3 {
+	margin: 0px;
+	font-size: 20px;
+}
+
+.collapsed + .content .footer{
+	left: 75px;
+}
+
+/* ========== HEADER STYLES ========== */
+
+.smilies {
+	background: #6C6C6C url(../images/smilies.png) repeat-x;
+	width: 100%;
+	height: 24px;
+}
+
+header {
+	background: #FAFAFA;
+	width: 100%;
+	height: 100px;
+}
+
+.logo {
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 100px;
+	opacity: 1.0;
+	transition: 0.5s;
+}
+
+.logo:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.logo img {
+	width: 100%;
+}
+
+
+/* ========== MENU STYLES ========== */
+
+.menu {
+	position: relative;
+	float: right;
+	margin-top: 26px;
+	margin-right: 80px;
+}
+
+.menu ul {
+	font-family: Open Sans;
+	font-size: 14px;
+	list-style: none;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul li {
+	float: left;
+	position: relative;
+	display: block;
+	margin-left: 10px;
+}
+
+.menu ul li a {
+	color: #727272;
+	text-decoration: none;
+	padding: 10px 16px;
+	display: block;
+	transition: 0.5s;
+	border: 1px solid transparent;
+    border-radius: 6px;
+}
+
+.menu li.active a {
+	color: #FFF;
+	border: none;
+	background: #001F3E;
+	border: 1px solid transparent;
+	border-radius: 6px;
+}
+
+.menu li ul {
+	display: none;
+}
+
+.menu ul li a:hover {
+	background: #001F3E;
+	color: #FFF;
+}
+
+.menu li.active a:hover {
+	background: transparent;
+	color: #001F3E;
+	border: 1px solid #001F3E;
+}
+
+.icon {
+	display: none;
+}
+
+.subnavi {
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+.menu ul li ul{
+	display: none;
+	min-width: 10%;
+	background: #727272 url(../images/subnavi.png) no-repeat 100% 97%;
+	border-bottom: 3px solid #525252;
+	position: absolute;
+	z-index: 50;
+	-webkit-border-bottom-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+.menu ul li ul{
+	float: none; 
+	position: absolute;
+	text-transform: none;
+}
+
+.menu ul li ul li{
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul li ul li a , .menu menu ul li ul li.active a{
+	background: none !important;
+	font-family: Tahoma;
+	color: #FFF;
+	font-size: 14px;
+	width: 200px;
+	padding: 9px 10px;
+	border: 0 !important;
+}
+
+.menu ul li ul li a:hover, .menu menu ul li ul li.active a:hover{
+	background: none;
+	color: #383838;
+	text-shadow: 0px 0px 3px #383838;
+	border: 0px;
+}
+
+.menu ul li:hover>ul{
+	display: block;
+}
+
+/* ========== PAGE HEADER ========== */
+
+.page-header {
+	background: url('../images/page-header.png') no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	margin-bottom: 22px;
+}
+
+.page-header > .title {
+	text-align: center;
+	font-size: 34px;
+	font-family: "Open Sans";
+	font-weight: normal;
+	color: #FFF;
+	padding: 66px 0px 0px 0px;
+}
+
+.page-header > .subtitle {
+	text-align: center;
+	font-size: 16px;
+	font-family: "Open Sans";
+	font-weight: normal;
+	color: #FFF;
+	padding: 0px 0px 66px 0px;
+}
+
+/* ========== FOOTER STYLES ========== */
+
+.content-nando {
+	width:1100px;
+	margin: 0 auto;
+}
+
+.ant-footer {
+	background: #FAFAFA;
+	width: 100%;
+	display: flex;
+	padding-bottom: 10px;
+}
+
+.ant-footer .box-footer {
+	float: left;
+	width: 25%;
+	padding-top: 20px;
+}
+
+.ant-footer .box-footer img {
+	padding-top: 10px;
+}
+
+.ant-footer .box-footer h2 {
+	font-size: 16px;
+	font-family: Open Sans;
+	margin: 0;
+	color: #6C6C6C;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-left: 15px;
+}
+
+.ant-footer .box-footer .xatpro {
+	list-style: none;
+	margin: 0px 0px;
+	padding: 0;
+	padding-left: 15px;
+}
+
+.ant-footer .box-footer .desc-name {
+	line-height: 2.0;
+	color: #6C6C6C;
+	font-weight: bold;
+	font-family: Open Sans;
+	font-size: 14px;
+}
+
+.ant-footer .box-footer .desc {
+	line-height: 1.5;
+	color: #828282;
+	font-family: Open Sans;
+	font-size: 12px;
+}
+
+.ant-footer .box-footer ul {
+	list-style: none;
+	margin: 10px 0px;
+	padding: 0;
+	padding-left: 15px;
+}
+
+.ant-footer .box-footer ul li {
+	line-height: 2.0;
+}
+
+.ant-footer .box-footer ul li a {
+	color: #838383;
+	font-size: 14px;
+	font-family: Open Sans;
+	transition: 0.5s;
+}
+
+.ant-footer .box-footer ul li a:hover {
+	color: #001F3E;
+	text-shadow: 0px 0px 3px #383838;
+}
+
+.sub-footer {
+	background: #001F3E;
+	width: 100%;
+	display: flex;
+}
+
+.sub-footer .text-center {
+	text-align: center;
+	font-size: 14px;
+	font-family: Open Sans;
+	color: #FFF;
+	padding: 12px 0px;
+}
+
+/* ========== RESPONSIVE STYLE ========== */
+
+@media screen and (max-width: 880px) {
+	
+	.logo {
+	margin-left: 20px;
+	}
+
+
+	.menu ul li {
+	display: none;
+	transition: 0.5s;
+	margin: 0;
+	}
+	
+	button {
+	border: 0px;
+	outline: none;
+	}
+	
+	.icon {
+	height: 63px;
+	float: right;
+	display: inline-block;
+	margin-right: -62px;
+	padding-top: 10px;
+	}
+	
+	.icon .menu-responsive {
+	position: relative;
+	background: url('../images/icon.png');
+	width: 37px;
+	height: 29px;
+	outline: none;
+	}
+
+	.menu ul {
+		margin-top: 11px;
+	}
+
+	.menu ul li ul {
+		margin-top: 0;
+	}
+	
+	.menu ul li a {
+	color:#FFF;
+	border-bottom: 1px solid #414247;
+	}
+	
+	.menu.responsive {
+	position: absolute;
+	width : 100%;
+	margin-right: 0px;
+	z-index: 3;
+	}
+	
+	.menu.responsive .icon {
+	height: 63px;
+	float: right;
+	display: inline-block;
+	margin-right: 18px;
+	padding-top: 10px;
+	}
+	
+	.menu.responsive ul li {
+	float: none;
+	display: inline;
+	width: 100%;
+	}
+	
+	.menu.responsive ul li a {
+	display: block;
+	text-align: left;
+	background: #242527;
+	width: 100%;
+	height: 50px;
+	padding: 12px 0px;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 0px;
+	}
+	
+	.menu ul li a:hover {
+	background: #64666F; 
+	color: #FFF;
+	border-bottom: 1px solid #64666F;
+	}
+
+	.menu ul li.active a {
+	background: #64666F;
+	border: 0px;
+	border-bottom: 2px solid #24B4D6;
+	}
+	
+	.menu ul li.active a:hover {
+	color: #FFF;
+	background: #64666F;
+	border: 0px;
+	border-bottom: 2px solid #24B4D6;
+	}
+	
+	.menu ul li ul{
+	position: relative;
+	border-radius: 0;
+	border-bottom: 0;
+	}
+	
+	.menu ul li ul li a , .menu menu ul li ul li.active a{
+	background: #242527 !important;
+	width: 100%;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: Tahoma;
+	border-bottom: 1px solid #414247 !important;
+	}
+
+	.menu ul li ul li a:hover , .menu ul li ul li.active a:hover {
+		background: none !important;
+		color: #FFF;
+		text-shadow: 0px 0px 3px #FFF;
+	}
+
+	.ant-footer .box-footer {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	}
+
+	.sub-footer .text-center {
+	text-align: center;
+	font-size: 14px;
+	font-family: Open Sans;
+	color: #999999;
+	padding: 12px 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	}
+
+	.ant-footer .box-footer .xatpro {
+	padding-left: 15px;
+	padding-right: 15px;
+	}
+	
+}
+
+@media only screen and (max-width: 767px) {
+.pricing-2-col .pricing-box, .pricing-3-col .pricing-box, .pricing-4-col .pricing-box, .pricing-5-col .pricing-box {
+	width: 100%;
+}
+
+.product-center h2 {
+	color: #FFF;
+	font-size: 16px;
+	position: absolute;
+	margin-top: 68px;
+	margin-left: 50px;
+	margin-right: 20px;
+}
+
+.feature-box-image, .pricing-box {
+    margin-bottom: 30px;
+}
+
+.promotions h2 {
+	float: left;
+	font-size: 24px;
+	font-family: Open Sans;
+	color: #999;
+	margin-top: 6px;
+	position: relative;
+}
+
+.promotions span {
+	margin-top: 0px;
+	position: relative;
+	color: #999;
+	font-size: 12px;
+	float: left;
+}
+
+.promotions .button {
+	float: left;
+	margin-top: 10px;
+}
+
+}

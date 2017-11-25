@@ -1,0 +1,515 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="pt-br" lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<title>xatProject</title>
+<meta name="description" content="xatProject">
+<link rel="shortcut icon" href="images/favicon.ico">
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+
+</head>
+<body> 
+
+<div class="smilies"></div>
+
+<header>
+
+<a href="inicio"><div class="logo"><img src="images/logo.png" /></div></a>
+
+<div class="menu">
+
+<div class="icon">
+    <button class="menu-responsive" onclick="responsive()"></button>
+</div>
+
+<div class="clear"></div>
+
+    <ul>
+	    <li><a href="inicio">Home</a></li>
+	    <li><a href="#">Contact</a></li>
+		<li class="active"><a href="#" data-toggle="dropdown" class="subnavi">Generators</a>
+			<ul>
+		        <li><a href="#"><img src="https://xat.com/images/smw/namecolor.png"> <span>Namecolor</span></a></li>
+		        <li><a href="#"><img src="https://xat.com/images/smw/nameglow.png"> <span>Nameglow</span></a></li>
+		        <li><a href="#"><img src="https://xat.com/images/smw/nameflag.png"> <span>Nameflag</span></a></li>
+		        <li><a href="#"><img src="https://xat.com/images/smw/namewave.png"> <span>Namewave</span></a></li>
+		        <li><a href="#"><img src="https://xat.com/images/smw/radio.png"> <span>Radio</span></a></li>
+		        <li><a href="#"><img src="https://xat.com/images/smw/flag.png"> <span>Flags</span></a></li>
+			</ul>
+		</li>
+		<li><a href="#">Features</a></li>
+		<li><a href="#">Infos</a></li>
+		<li><a href="#">Wiki</a></li>
+		<li><a href="#">Forum</a></li>
+	</ul>	
+</div>
+
+</header>
+
+<div class="clear"></div>
+
+<div class="page-header">
+	<div class="title">MessLetters Generate</div>
+	<div class="subtitle">Generate letters for your nickname</div>
+</div>
+
+<div class="content">
+
+		<script src="js/messletters.js"></script>
+
+		<div align="center">
+
+		<form>
+		<strong>Your nickname here:</strong><br>
+        <div class="xatpro-input" style="max-width:20%">
+			<input class="form-control" type="text" name="textin" placeholder="Current Nickname" onkeyup="change(textin, s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18, s19, s20, s21, s22, s23, s24, s25, s26, s27, s28, s29, s30, s31, s32, s33, s34, s35, s36, s37, s38, s39, s40, s41, s42, s43, s44, s45, s46, s47, s48, s49, s50, s51, s52, s53, s54, s55, s56, s57, s58, s59, s60, s61, s62, s63, s64, s65, s66, s67, s68, s69, s70, s71, s72, s73, s74, s75, s76, s77, s78, s79, s80); alt(textin, sa);" id="textin">
+		</div>
+        <h3>Your new nickname:</h3>
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s1" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s2" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s3" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s4" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<br>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s5" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s6" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s7" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s8" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<br>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s9" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s10" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s11" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s12" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<br>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s13" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s14" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s15" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s16" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<br>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s17" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s18" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s19" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s20" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<br>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s21" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s22" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s23" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s24" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<br>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s25" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s26" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s27" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s28" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<br>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s29" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s30" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s31" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s32" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<br>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s33" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s34" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s35" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s36" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<br>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s37" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s38" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s39" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s40" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<br>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s41" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s42" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s43" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s44" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<br>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s45" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s46" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s47" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s48" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<br>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s49" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s50" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s51" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s52" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<br>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s53" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s54" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s55" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s56" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<br>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s57" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s58" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s59" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s60" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<br>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s61" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s62" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s63" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s64" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<br>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s65" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s66" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s67" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s68" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<br>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s69" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s70" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s71" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s72" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<br>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s73" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s74" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s75" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s76" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<br>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s77" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s78" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+		
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s79" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		<div class="xatpro-input" style="display:inline-block;">
+		<input class="form-control" type="text" name="s80" placeholder="Your new nickname..." onclick="mark(this);" readonly="readonly">
+		</div>
+
+		</form>
+
+		</div>
+
+</div>
+
+<div class="ant-footer">
+
+<div class="content-nando">
+
+<div class="box-footer">
+
+<ul class="xatpro">
+
+			<li class="desc-name">XatProject.com</li>
+			<li class="desc">Global xat portal with generators, resources, tutorials and more:<br>
+			The latest information on xat, new powers, smiley combinations and prices.<br>
+			Avatars, backgrounds and premade CSS for your xatspace and xat group.</li>
+
+		</ul>
+
+</div>
+
+<div class="box-footer">
+
+	<h2>xatProject</h2>
+
+		<ul>
+
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">History</a></li>
+			<li><a href="#">Staff</a></li>
+			<li><a href="#">Rules</a></li>
+
+		</ul>
+
+</div>
+
+<div class="box-footer">
+
+	<h2>Media</h2>
+
+		<ul>
+
+			<li><a href="#">Facebook</a></li>
+			<li><a href="#">Twitter</a></li>
+			<li><a href="#">Instagram</a></li>
+			<li><a href="#">Youtube</a></li>
+
+		</ul>
+
+</div>
+
+<div class="box-footer">
+
+	<h2>Others</h2>
+
+		<ul>
+
+			<li><a href="#">Terms of Service</a></li>
+			<li><a href="#">Privacy Police</a></li>
+			<li><a href="#">Frequently asked questions</a></li>
+			<li><a href="#">Contact us</a></li>
+
+		</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="sub-footer">
+
+<div class="content-nando">
+
+<div class="text-center">© 2013 - 2017 xatProject - All rights reserved.<br>
+This site is not affiliated with xat.com</div>
+
+</div>
+
+</div>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/nando.min.js"></script>
+
+</body>
+</html>

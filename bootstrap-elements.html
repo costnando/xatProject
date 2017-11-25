@@ -1,0 +1,341 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="pt-br" lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<title>xatProject</title>
+<meta name="description" content="xatProject">
+<link rel="shortcut icon" href="images/favicon.ico">
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+
+</head>
+<body>
+
+<div class="smilies"></div>
+
+<header>
+
+<a href="inicio"><div class="logo"><img src="images/logo.png" /></div></a>
+
+<div class="menu">
+
+<div class="icon">
+    <button class="menu-responsive" onclick="responsive()"></button>
+</div>
+
+<div class="clear"></div>
+
+    <ul>
+	    <li class="active"><a href="inicio">Home</a></li>
+	    <li><a href="#">Contact</a></li>
+		<li><a href="#" data-toggle="dropdown" class="subnavi">Generators</a>
+			<ul>
+		        <li><a href="#"><img src="https://xat.com/images/smw/namecolor.png"> <span>Namecolor</span></a></li>
+		        <li><a href="#"><img src="https://xat.com/images/smw/nameglow.png"> <span>Nameglow</span></a></li>
+		        <li><a href="#"><img src="https://xat.com/images/smw/nameflag.png"> <span>Nameflag</span></a></li>
+		        <li><a href="#"><img src="https://xat.com/images/smw/namewave.png"> <span>Namewave</span></a></li>
+		        <li><a href="#"><img src="https://xat.com/images/smw/radio.png"> <span>Radio</span></a></li>
+		        <li><a href="#"><img src="https://xat.com/images/smw/flag.png"> <span>Flags</span></a></li>
+			</ul>
+		</li>
+		<li><a href="#">Features</a></li>
+		<li><a href="#">Infos</a></li>
+		<li><a href="#">Wiki</a></li>
+		<li><a href="#">Forum</a></li>
+	</ul>	
+</div>
+
+</header>
+
+<div class="clear"></div>
+
+<div class="page-header">
+    <div class="title">Bootstrap-Elements</div>
+    <div class="subtitle">Custom bootstrap elements</div>
+</div>
+
+<div class="content">
+
+                    <div class="row">
+                    <!-- Labels -->
+                    <div class="col-md-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading"> 
+                                <h3 class="panel-title">Labels</h3> 
+                            </div> 
+                            <div class="panel-body">
+                                <p>
+                                    <span class="label label-default">Default</span>
+                                    <span class="label label-primary">Primary</span>
+                                    <span class="label label-success">Success</span>
+                                    <span class="label label-info">Info</span>
+                                    <span class="label label-warning">Warning</span>
+                                    <span class="label label-danger">Danger</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Badge -->
+                    <div class="col-md-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading"> 
+                                <h3 class="panel-title">Badge</h3> 
+                            </div> 
+                            <div class="panel-body">
+                                <p>
+                                  <span class="badge badge-default">57</span>       
+                                  <span class="badge badge-primary">15</span>
+                                  <span class="badge badge-success">0</span>
+                                  <span class="badge badge-info">21</span>
+                                  <span class="badge badge-warning">35</span>
+                                  <span class="badge badge-danger">32</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- End row -->
+
+
+
+                <div class="row">
+
+                    <!-- Standard Alert -->
+                    <div class="col-md-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading"> 
+                                <h3 class="panel-title">Standard Alert</h3> 
+                            </div> 
+                            <div class="panel-body"> 
+                            
+                                <div class="alert alert-success">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" class="alert-link">Alert Link</a>.
+                                </div>
+                                <div class="alert alert-info">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" class="alert-link">Alert Link</a>.
+                                </div>
+                                <div class="alert alert-warning">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" class="alert-link">Alert Link</a>.
+                                </div>
+                                <div class="alert alert-danger">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" class="alert-link">Alert Link</a>.
+                                </div>
+
+                                <div class="alert alert-success fade in">
+                                    <h4>Big one!</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
+                                    <p>
+                                      <button type="button" class="btn btn-success">Wanna do this</button>
+                                      <button type="button" class="btn btn-default">Or do this</button>
+                                    </p>
+                                </div>
+                            </div>  <!-- Panel-body -->
+                        </div> <!-- Panel-->
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <!-- Dismissable Alert -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading"> 
+                                <h3 class="panel-title">Dismissable Alert</h3> 
+                            </div> 
+                            <div class="panel-body"> 
+                                <div class="alert alert-success alert-dismissable">
+                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" class="alert-link">Alert Link</a>.
+                                </div>
+                                <div class="alert alert-info alert-dismissable">
+                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" class="alert-link">Alert Link</a>.
+                                </div>
+                                <div class="alert alert-warning alert-dismissable">
+                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" class="alert-link">Alert Link</a>.
+                                </div>
+                                <div class="alert alert-danger alert-dismissable">
+                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" class="alert-link">Alert Link</a>.
+                                </div>
+
+                                <div class="alert alert-info fade in">
+                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                    <h4>Big one!</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
+                                    <p>
+                                      <button type="button" class="btn btn-info">Wanna do this</button>
+                                      <button type="button" class="btn btn-default">Or do this</button>
+                                    </p>
+                                </div>
+                            </div> <!-- Panel-body -->
+                        </div> <!-- panel -->
+                    </div> <!-- col -->
+                </div> <!-- End row -->
+
+                <!-- List Groups -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading"> 
+                                <h3 class="panel-title">List Groups</h3> 
+                            </div> 
+                            <div class="panel-body"> 
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h5>Simple List Group</h5>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                                <span class="badge badge-primary">14</span>
+                                                Cras justo odio
+                                            </li>
+                                            <li class="list-group-item">
+                                                <span class="badge badge-success">2</span>
+                                                Dapibus ac facilisis in
+                                            </li>
+                                            <li class="list-group-item">
+                                                <span class="badge badge-info">1</span>
+                                                Morbi leo risus
+                                            </li>
+                                            <li class="list-group-item">
+                                                <span class="badge badge-warning">1</span>
+                                                Morbi leo risus
+                                            </li>
+                                            <li class="list-group-item">
+                                                <span class="badge badge-danger">1</span>
+                                                Morbi leo risus
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <h5>List Group with Links</h5>
+                                        <div class="list-group">
+                                            <a href="#" class="list-group-item active">
+                                                Cras justo odio
+                                            </a>
+                                            <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                                            <a href="#" class="list-group-item">Morbi leo risus</a>
+                                            <a href="#" class="list-group-item disabled">Porta ac consectetur ac</a>
+                                            <a href="#" class="list-group-item">Vestibulum at eros</a>
+                                        </div> <!-- list-group -->
+                                    </div> <!-- col -->
+                                </div> <!-- end row -->
+                            </div> <!-- panel-body -->
+                        </div> <!-- panel -->
+                    </div> <!-- col -->
+                </div> <!-- End row -->
+
+
+
+                <!-- List Group with Description -->
+                <div class="row">
+                    <div class="col-sm-12"> 
+                        <div class="panel panel-default">
+                            <div class="panel-heading"> 
+                                <h3 class="panel-title">List Group with Description</h3> 
+                            </div> 
+                            <div class="panel-body"> 
+                                <div class="list-group"> 
+                                    <a href="#" class="list-group-item active"> 
+                                        <h4 class="list-group-item-heading">Domestic confined any but son</h4> 
+                                        <p class="list-group-item-text">Consider speaking me prospect whatever if. Ten nearer rather hunted six parish indeed number. Allowance repulsive sex may contained can set suspected abilities cordially. Do part am he high rest that. So fruit to ready it being views match. </p> 
+                                    </a> 
+                                    <a href="#" class="list-group-item disabled"> 
+                                        <h4 class="list-group-item-heading">Why painful the sixteen how minuter</h4> 
+                                        <p class="list-group-item-text">Started his hearted any civilly. So me by marianne admitted speaking. Men bred fine call ask. Cease one miles truth day above seven. Suspicion sportsmen provision suffering mrs saw engrossed something. Snug soon he on plan in be dine some. </p> 
+                                    </a> 
+                                    <a href="#" class="list-group-item"> 
+                                        <h4 class="list-group-item-heading">Barton waited twenty always repair</h4> 
+                                        <p class="list-group-item-text">Talking chamber as shewing an it minutes. Trees fully of blind do. Exquisite favourite at do extensive listening. Improve up musical welcome he. Gay attended vicinity prepared now diverted. Esteems it ye sending reached as. Longer lively her design settle tastes advice mrs off who. </p> 
+                                    </a> 
+                                </div> <!-- list-group -->
+                            </div> <!-- Panel-body -->
+                        </div> <!-- panel -->
+                    </div> <!-- col -->
+                </div> <!-- End row -->
+
+</div>
+
+<div class="ant-footer">
+
+<div class="content-nando">
+
+<div class="box-footer">
+
+<ul class="xatpro">
+
+            <li class="desc-name">XatProject.com</li>
+            <li class="desc">Global xat portal with generators, resources, tutorials and more:<br>
+            The latest information on xat, new powers, smiley combinations and prices.<br>
+            Avatars, backgrounds and premade CSS for your xatspace and xat group.</li>
+
+        </ul>
+
+</div>
+
+<div class="box-footer">
+
+    <h2>xatProject</h2>
+
+        <ul>
+
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Staff</a></li>
+            <li><a href="#">Rules</a></li>
+
+        </ul>
+
+</div>
+
+<div class="box-footer">
+
+    <h2>Media</h2>
+
+        <ul>
+
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Youtube</a></li>
+
+        </ul>
+
+</div>
+
+<div class="box-footer">
+
+    <h2>Others</h2>
+
+        <ul>
+
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Police</a></li>
+            <li><a href="#">Frequently asked questions</a></li>
+            <li><a href="#">Contact us</a></li>
+
+        </ul>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="sub-footer">
+
+<div class="content-nando">
+
+<div class="text-center">© 2013 - 2017 xatProject - All rights reserved.<br>
+This site is not affiliated with xat.com</div>
+
+</div>
+
+</div>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/nando.min.js"></script>
+
+</body>
+</html>
